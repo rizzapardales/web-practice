@@ -7,7 +7,8 @@
     <!--Static Website-->
     
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     
 </head>
 <body>
@@ -15,7 +16,9 @@
         <div class="navbar">
             <!--Left Side-->
             <div class="SpotifyLogo">
-                <img src="img/spotify logo.png" alt="Spotify Logo">
+                <a href="https://open.spotify.com/">
+                    <img src="img/spotify logo.png" alt="Spotify Logo">
+                </a>
             </div>
 
             <!--Right Side-->
@@ -23,7 +26,7 @@
                 <li><a href="#">Premium</a></li>
                 <li><a href="#">Support</a></li>
                 <li><a href="#">Download</a></li>
-                <li><a href="#">|</a></li>
+                <li>|</li>
                 <li><a href="#">Sign Up</a></li>
                 <li><a href="#">Login</a></li>
             </ul>
@@ -33,54 +36,88 @@
     
     
     <footer>
-        <div class="footer">
-            <!--Left Side-->
-            <div class="SpotifyLogo2">
-                <img src="img/spotify logo.png" alt="Spotify Logo">
-            </div>
+            <div class="footer">
+                <!--Left Side-->
+                <div class="SpotifyLogo2">
+                    <a href="https://open.spotify.com/">
+                        <img src="img/spotify logo.png" alt="Spotify Logo">
+                    </a>
+                </div>
+                
+                <!--Bottom Footer-->
+                
+                <div class="bottom-maincard">
+                    <div class="card-footer">
+                            <ul class="bottom-footer">
+                                <li><a href="#">Legal</a></li>
+                                <li><a href="#">Safety & Privacy Center</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Cookie Settings</a></li>
+                                <li><a href="#">About Ads</a></li>
+                                <li><a href="#">Accessibility</a></li>     
+                            </ul>
+                    </div> 
 
+                    <div class="footer-info">
+                       <a href="#"> <i class="fas fa-globe"></i> Germany (English) </a>
+                        <br>
+                        <br>
+                        <span> © 2025 Spotify AB </span>
+                    </div>
+                </div> 
+            </div>
+            
             <!--Right Side-->
-            <ul class="links">
-                <table>
-                    <tr>
-                        <th>Company</th>
-                        <th>Communities</th>
-                        <th>Useful Links</th>
-                        <th>Spotify Plans</th>
-                    </tr>
-                    <!--Company-->
-                    <td>
+            <div class="main-card">
+                <div class="card">  
+                    <ul class="footerlinks">
+                        <li class = "footer-header">Company</li>  <!--Company-->
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Job</a></li>
                         <li><a href="#">For the Record</a></li>
-                    </td>
-                    <!--Community-->
-                    <td>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <ul class="footerlinks">
+                        <li class = "footer-header">Communities</li> <!--Communities-->
                         <li><a href="#">For Artist</a></li>
                         <li><a href="#">Developers</a></li>
-                        <li><a href="#">Advertising</a></li>
-                        <li><a href="#">Investor</a></li>
+                        <li><a href="#">Advertisement</a></li>
+                        <li><a href="#">Investors</a></li>
                         <li><a href="#">Vendors</a></li>
-                    </td>
-                    <!--Useful Links-->
-                    <td>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <ul class="footerlinks">
+                        <li class = "footer-header">Useful Link</li>  <!--Useful Links-->
                         <li><a href="#">Support</a></li>
                         <li><a href="#">Web Player</a></li>
                         <li><a href="#">Free Mobile App</a></li>
-                        <li><a href="#">Import your </br>music</a></li>
-                    </td>
-                    <!--Spotify Plans-->
-                    <td>
-                        <li><a href="#">Premium <br>Individual </a></li>
+                        <li><a href="#">Import your</br>music</a></li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <ul class="footerlinks">
+                        <li class = "footer-header">Spotify Plans</li> <!--Spotify Plans-->
+                        <li><a href="#">Premium</br>Individual</a></li>
                         <li><a href="#">Premium Duo</a></li>
                         <li><a href="#">Premium Family</a></li>
-                        <li><a href="#">Premium <br> Student</a></li>
-                        <li><a href="#">Spotify Fee</a></li>
-                    </td>               
-                </table>
-            </ul>
-        </div>
+                        <li><a href="#">Premium Student</a></li>
+                        <li><a href="#">Spotify Free</a></li>
+                    </ul>
+                </div>
+
+                <!--Icons (inside main card)-->
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
     </footer>
-    
 </body>
 </html>
+          
